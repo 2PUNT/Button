@@ -15,9 +15,9 @@ SOURCES :=
 HEADERS := Button.hpp IButtonListener.hpp
 
 # other places to look for files for this project
-SEARCH  :=
+SEARCH  := ../lib
 
 # set REATIVE to the next higher directory 
 # and defer to the Makefile.due there
-RELATIVE := $(RELATIVE)../
+RELATIVE := $(RELATIVE)../../
 include $(RELATIVE)Makefile.due
